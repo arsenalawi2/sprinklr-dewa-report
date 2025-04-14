@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprinklr-DEWA Integration: VP Briefing</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/visualizations.css">
+    <link rel="stylesheet" href="assets/css/analyst-reports.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="dewa-header">
+        <div class="header-container">
+            <div class="logo-section">
+                <div class="dewa-logo">
+                    <img src="assets/images/dewa-logo-new.png" alt="Dubai Electricity & Water Authority">
+                </div>
+            </div>
+            <div class="header-nav">
+                <nav>
+                    <ul>
+                        <li><a href="#executive-summary">Executive Summary</a></li>
+                        <li><a href="#challenges">Challenges</a></li>
+                        <li><a href="#workflow">Workflow</a></li>
+                        <li><a href="#automation">Automation</a></li>
+                        <li><a href="#modules">Sprinklr Modules</a></li>
+                        <li><a href="#ai-use-cases">AI Use Cases</a></li>
+                        <li><a href="#business-value">Business Value</a></li>
+                        <li><a href="#analysts">Analysts' Reports</a></li>
+                        <li><a href="#recommendation">Recommendation</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <h1>AI-Driven Transformation of Community Management via Sprinklr</h1>
+                <p class="subtitle">Leveraging Sprinklr's Full Platform to Automate, Integrate, and Enhance DEWA's Social-to-CRM Workflow</p>
+                <div class="report-meta">
+                    <p><strong>Prepared for:</strong> EVP & CAIO I&TF</p>
+                    <p><strong>Prepared by:</strong> Hadi Abou Chaaban</p>
+                    <p><strong>Date:</strong> April 14, 2025</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="executive-summary" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <img src="assets/images/icons/executive-summary.svg" alt="Executive Summary" class="section-icon" width="40" height="40">
+                    <h2>Executive Summary</h2>
+                </div>
+                <div class="content-box">
+                    <p>DEWA's current social media workflow—Sprinklr Social monitoring ➝ Excel ➝ Email ➝ SAP CRM—is <strong>manual, fragmented, and slow</strong>. Critical time is lost in transferring data and managing customer issues. We propose activating Sprinklr's full AI-powered suite—<strong>Sprinklr Service, Insights, AI+, and CRM integration</strong>—to automate triage, enhance agent productivity, eliminate the Excel/email dependency, and create seamless SAP CRM case creation. This aligns with DEWA's strategic goals of <strong>digital transformation</strong>, <strong>operational excellence</strong>, and <strong>world-class customer experience</strong>.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="challenges" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <img src="assets/images/icons/challenges.svg" alt="Challenges" class="section-icon" width="40" height="40">
+                    <h2>Current Challenges in Community Management</h2>
+                </div>
+                <div class="content-box">
+                    <div class="table-responsive">
+                        <table class="comparison-table">
+                            <thead>
+                                <tr>
+                                    <th>Challenge</th>
+                                    <th>Impact</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Manual data handling (Excel, Email)</td>
+                                    <td>Slows down resolution; increases risk of human error</td>
+                                </tr>
+                                <tr>
+                                    <td>No real-time CRM integration</td>
+                                    <td>Limits visibility across customer lifecycle</td>
+                                </tr>
+                                <tr>
+                                    <td>Agent bandwidth spent on repetitive tasks</td>
+                                    <td>Wastes valuable time that could be used on high-priority issues</td>
+                                </tr>
+                                <tr>
+                                    <td>Inconsistent reporting</td>
+                                    <td>Hard to consolidate metrics; insight generation is delayed or siloed</td>
+                                </tr>
+                                <tr>
+                                    <td>Crisis detection is reactive</td>
+                                    <td>Lacks predictive alerts for spikes in sentiment or complaints</td>
+                                </tr>
+                                <tr>
+                                    <td>Underused Gen AI capabilities</td>
+                                    <td>Missed opportunity for response automation and tone personalization</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="workflow" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <img src="assets/images/icons/workflow.svg" alt="Workflow" class="section-icon" width="40" height="40">
+                    <h2>Workflow Comparison: Current vs. Sprinklr-Optimized</h2>
+                </div>
+                <div class="content-box">
+                    <div class="workflow-comparison">
+                        <div class="workflow-container">
+                            <div class="workflow-row">
+                                <div class="workflow-box workflow-current">
+                                    <span class="workflow-label">Current</span>
+                                    <h3 class="workflow-title">Message Monitoring</h3>
+                                    <p class="workflow-description">Manual in Sprinklr Social</p>
+                                </div>
+                                <div class="workflow-arrow">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                                <div class="workflow-box workflow-future">
+                                    <span class="workflow-label future">Future</span>
+                                    <h3 class="workflow-title">Message Monitoring</h3>
+                                    <p class="workflow-description">Enhanced with <strong>Sprinklr Insights</strong>: real-time alerts, sentiment tracking, crisis detection</p>
+                                </div>
+                            </div>
+                            
+                            <div class="workflow-row">
+                                <div class="workflow-box workflow-current">
+                                    <span class="workflow-label">Current</span>
+                                    <h3 class="workflow-title">Message Extraction & Triage</h3>
+                                    <p class="workflow-description">Manual Excel sheets sent by email</p>
+                                </div>
+                                <div class="workflow-arrow">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                                <div class="workflow-box workflow-future">
+                                    <span class="workflow-label future">Future</span>
+                                    <h3 class="workflow-title">Message Extraction & Triage</h3>
+                                    <p class="workflow-description"><strong>AI auto-categorization</strong> by sentiment, urgency, and topic; auto-routing to right team</p>
+                                </div>
+                            </div>
+                            
+                            <div class="workflow-row">
+                                <div class="workflow-box workflow-current">
+                                    <span class="workflow-label">Current</span>
+                                    <h3 class="workflow-title">SAP CRM Integration</h3>
+                                    <p class="workflow-description">Manual entry by Customer Happiness</p>
+                                </div>
+                                <div class="workflow-arrow">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                                <div class="workflow-box workflow-future">
+                                    <span class="workflow-label future">Future</span>
+                                    <h3 class="workflow-title">SAP CRM Integration</h3>
+                                    <p class="workflow-description"><strong>Direct case creation</strong> and status sync with SAP CRM</p>
+                                </div>
+                            </div>
+                            
+                            <div class="workflow-row">
+                                <div class="workflow-box workflow-current">
+                                    <span class="workflow-label">Current</span>
+                                    <h3 class="workflow-title">Response Drafting</h3>
+                                    <p class="workflow-description">Fully manual drafting</p>
+                                </div>
+                                <div class="workflow-arrow">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                                <div class="workflow-box workflow-future">
+                                    <span class="workflow-label future">Future</span>
+                                    <h3 class="workflow-title">Response Drafting</h3>
+                                    <p class="workflow-description"><strong>AI-generated suggestions</strong> via Sprinklr AI+ (with tone and language tuning)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="automation" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <img src="assets/images/icons/automation.svg" alt="Automation" class="section-icon" width="40" height="40">
+                    <h2>Targeted Automation Areas</h2>
+                </div>
+                <div class="content-box">
+                    <div class="table-responsive">
+                        <table class="comparison-table">
+                            <thead>
+                                <tr>
+                                    <th>Process Area</th>
+                                    <th>Current Process</th>
+                                    <th>Sprinklr Solution</th>
+                                    <th>AI/Automation Impact</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Inquiry Management</strong></td>
+                                    <td>Messages compiled manually in Excel, sent by email</td>
+                                    <td>AI auto-classifies and routes to Customer Happiness in Sprinklr Service</td>
+                                    <td>Eliminates Excel/email; faster routing</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Common Inquiries</strong></td>
+                                    <td>Agents manually select replies from message bank</td>
+                                    <td>Sprinklr's Rule Engine detects inquiries and responds with pre-approved templates</td>
+                                    <td>Consistent, real-time answers; reduces repetitive work</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Unique Inquiries</strong></td>
+                                    <td>Agents manually draft all responses</td>
+                                    <td>Sprinklr AI+ suggests personalized, compliant responses</td>
+                                    <td>Faster drafting with consistent tone and language</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Complaint Handling</strong></td>
+                                    <td>Manually identified and forwarded complaints</td>
+                                    <td>AI detects complaints via keywords and sentiment, escalates automatically</td>
+                                    <td>Immediate attention to high-severity complaints</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Message Bank Management</strong></td>
+                                    <td>Quarterly email-based update cycle</td>
+                                    <td>Sprinklr's centralized Asset Manager with approval workflows and AI tagging</td>
+                                    <td>Centralized version control and usage insights</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="process-map">
+                        <h3>Automation Process Flow</h3>
+                        <div class="process-container">
+                            <div class="process-step">
+                                <div class="process-icon">
+                                    <i class="fas fa-comments"></i>
+                                </div>
+                                <h4 class="process-title">Social Listening</h4>
+                                <p class="process-description">AI-powered monitoring across channels</p>
+                            </div>
+                            
+                            <div class="process-step">
+                                <div class="process-icon">
+                                    <i class="fas fa-robot"></i>
+                                </div>
+                                <h4 class="process-title">AI Classification</h4>
+                                <p class="process-description">Auto-categorize by intent, sentiment, and priority</p>
+                            </div>
+                            
+                            <div class="process-step">
+                                <div class="process-icon">
+                                    <i class="fas fa-random"></i>
+                                </div>
+                                <h4 class="process-title">Smart Routing</h4>
+                                <p class="process-description">Direct to appropriate team or auto-respond</p>
+                            </div>
+                            
+                            <div class="process-step">
+                                <div class="process-icon">
+                                    <i class="fas fa-sync"></i>
+                                </div>
+                                <h4 class="process-title">CRM Integration</h4>
+                                <p class="process-description">Automatic case creation in SAP</p>
+                            </div>
+                            
+                            <div class="process-step">
+                                <div class="process-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <h4 class="process-title">Analytics</h4>
+                                <p class="process-description">Real-time reporting and insights</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="modules" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <img src="assets/images/icons/modules.svg" alt="Modules" class="section-icon" width="40" height="40">
+                    <h2>Sprinklr Modules to Enable</h2>
+                </div>
+                <div class="content-box">
+                    <div class="module-grid">
+                        <div class="module-card">
+                            <div class="module-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <h3 class="module-title">Sprinklr Service</h3>
+                            <p class="module-description">Unified agent console, omnichannel case handling, SAP CRM integration</p>
+                            <div class="module-benefits">
+                                <div class="benefit-item">
+                                    <i class="fas fa-check-circle benefit-icon"></i>
+                                    <span>Ends Excel/email loop</span>
+                                </div>
+                                <div class="benefit-item">
+                                    <i class="fas fa-check-circle benefit-icon"></i>
+                                    <span>Automates routing and tracking</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="module-card">
+                            <div class="module-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h3 class="module-title">Sprinklr AI+</h3>
+                            <p class="module-description">GPT-powered reply generation, intent detection, holding statements, summarization</p>
+                            <div class="module-benefits">
+                                <div class="benefit-item">
+                                    <i class="fas fa-check-circle benefit-icon"></i>
+                                    <span>Speeds response time and consistency</span>
+                                </div>
+                                <div class="benefit-item">
+                                    <i class="fas fa-check-circle benefit-icon"></i>
+                                    <span>Enhances empathy and tone</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="module-card">
+                            <div class="module-icon">
+                                <i class="fas fa-chart-pie"></i>
+                            </div>
+                            <h3 class="module-title">Sprinklr Insights</h3>
+                            <p class="module-description">Real-time monitoring of social trends, complaints, and sentiment anomalies</p>
+                            <div class="module-benefits">
+                                <div class="benefit-item">
+                                    <i class="fas fa-check-circle benefit-icon"></i>
+                                    <span>Early crisis detection</span>
+                                </div>
+                                <div class="benefit-item">
+                                    <i class="fas fa-check-circle benefit-icon"></i>
+                                    <span>Brand reputation protection</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="module-card">
+                            <div class="module-icon">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <h3 class="module-title">Sprinklr Knowledge</h3>
+                            <p class="module-description">Central repository of approved responses, FAQs, and workflows</p>
+                            <div class="module-benefits">
+                                <div class="benefit-item">
+                                    <i class="fas fa-check-circle benefit-icon"></i>
+                                    <span>Supports Agent Assist</span>
+                                </div>
+                                <div class="benefit-item">
+                                    <i class="fas fa-check-circle benefit-icon"></i>
+                                    <span>Ensures compliance and reduces drafting time</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ai-use-cases" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <img src="assets/images/icons/ai-use-cases.svg" alt="AI Use Cases" class="section-icon" width="40" height="40">
+                    <h2>AI+ Use Cases That Immediately Improve Operations</h2>
+                </div>
+                <div class="content-box">
+                    <div class="use-cases-grid">
+                        <div class="use-case-card">
+                            <div class="use-case-icon">
+                                <i class="fas fa-tags"></i>
+                            </div>
+                            <h3 class="use-case-title">Classify Messages</h3>
+                            <p class="use-case-description">Auto-categorizes by type (complaint, compliment, inquiry)</p>
+                        </div>
+                        
+                        <div class="use-case-card">
+                            <div class="use-case-icon">
+                                <i class="fas fa-random"></i>
+                            </div>
+                            <h3 class="use-case-title">Intelligent Routing</h3>
+                            <p class="use-case-description">Assigns message to correct agent/team based on intent, priority, or channel</p>
+                        </div>
+                        
+                        <div class="use-case-card">
+                            <div class="use-case-icon">
+                                <i class="fas fa-comment-dots"></i>
+                            </div>
+                            <h3 class="use-case-title">Response Suggestions</h3>
+                            <p class="use-case-description">AI+ drafts empathetic and policy-aligned replies</p>
+                        </div>
+                        
+                        <div class="use-case-card">
+                            <div class="use-case-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <h3 class="use-case-title">Summary Generation</h3>
+                            <p class="use-case-description">AI+ summarizes long threads for context</p>
+                        </div>
+                        
+                        <div class="use-case-card">
+                            <div class="use-case-icon">
+                                <i class="fas fa-bullhorn"></i>
+                            </div>
+                            <h3 class="use-case-title">Holding Statement Generation</h3>
+                            <p class="use-case-description">AI auto-generates and localizes official messages during crises</p>
+                        </div>
+                        
+                        <div class="use-case-card">
+                            <div class="use-case-icon">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </div>
+                            <h3 class="use-case-title">Crisis Spike Detection</h3>
+                            <p class="use-case-description">Smart Alerts detect unusual engagement or complaint volumes in real time</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="business-value" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <img src="assets/images/icons/business-value.svg" alt="Business Value" class="section-icon" width="40" height="40">
+                    <h2>Strategic Business Value</h2>
+                </div>
+                <div class="content-box">
+                    <div class="value-graph">
+                        <div class="bar-container">
+                            <div class="bar-item">
+                                <div class="bar-label">Efficiency</div>
+                                <div class="bar-track">
+                                    <div class="bar-fill" style="width: 70%"></div>
+                                    <div class="bar-value">70% Improvement</div>
+                                </div>
+                            </div>
+                            
+                            <div class="bar-item">
+                                <div class="bar-label">Customer Satisfaction</div>
+                                <div class="bar-track">
+                                    <div class="bar-fill" style="width: 65%"></div>
+                                    <div class="bar-value">65% Improvement</div>
+                                </div>
+                            </div>
+                            
+                            <div class="bar-item">
+                                <div class="bar-label">Transparency & Audit</div>
+                                <div class="bar-track">
+                                    <div class="bar-fill" style="width: 85%"></div>
+                                    <div class="bar-value">85% Improvement</div>
+                                </div>
+                            </div>
+                            
+                            <div class="bar-item">
+                                <div class="bar-label">Crisis Preparedness</div>
+                                <div class="bar-track">
+                                    <div class="bar-fill" style="width: 75%"></div>
+                                    <div class="bar-value">75% Improvement</div>
+                                </div>
+                            </div>
+                            
+                            <div class="bar-item">
+                                <div class="bar-label">Cost Optimization</div>
+                                <div class="bar-track">
+                                    <div class="bar-fill" style="width: 60%"></div>
+                                    <div class="bar-value">60% Improvement</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="table-responsive">
+                        <table class="comparison-table">
+                            <thead>
+                                <tr>
+                                    <th>Value Domain</th>
+                                    <th>Improvement with Sprinklr AI Suite</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Efficiency</strong></td>
+                                    <td>Reduces manual steps and Excel/email dependency by 50–70%</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Customer Satisfaction</strong></td>
+                                    <td>Faster, smarter responses improve CSAT and public sentiment</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Transparency & Audit</strong></td>
+                                    <td>Tracks all agent actions, approvals, and cases in-platform</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Crisis Preparedness</strong></td>
+                                    <td>AI alerts and dashboards ensure early mitigation of social backlash</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Cost Optimization</strong></td>
+                                    <td>Reduces agent overhead on manual triage; supports ticket deflection through self-service</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="analysts" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <img src="assets/images/icons/recommendation.svg" alt="Analysts' Reports Icon">
+                    </div>
+                    <h2>Analysts' Reports on Sprinklr</h2>
+                </div>
+                <div class="content-box">
+                    <p>Industry analysts consistently recognize Sprinklr's leadership and innovation across multiple categories. Here's what the top research firms say about Sprinklr's capabilities:</p>
+                    
+                    <div class="analyst-grid">
+                        <div class="analyst-card">
+                            <div class="analyst-logo">
+                                <img src="assets/images/logos/gartner.jpg" alt="Gartner Logo">
+                            </div>
+                            <div class="analyst-content">
+                                <ul>
+                                    <li>
+                                        <span class="highlight">Content Marketing Platforms:</span> 
+                                        <span class="recognition">Leader</span> for the sixth consecutive year in the Gartner® Magic Quadrant™, highlighting its vision and execution capabilities.
+                                    </li>
+                                    <li>
+                                        <span class="highlight">Enterprise Conversational AI Platforms (2023):</span> 
+                                        <span class="recognition">Challenger</span> in this category, indicating a strong performance with some areas for growth.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="analyst-card">
+                            <div class="analyst-logo">
+                                <img src="assets/images/logos/forrester.jpg" alt="Forrester Logo">
+                            </div>
+                            <div class="analyst-content">
+                                <ul>
+                                    <li>
+                                        <span class="highlight">Contact-Center-as-a-Service Platforms (Q2 2025):</span> 
+                                        <span class="recognition">Strong Performer</span>, reflecting its robust capabilities in this space.
+                                    </li>
+                                    <li>
+                                        <span class="highlight">Social Suites (Q4 2024):</span> 
+                                        <span class="recognition">Leader</span>, showcasing its comprehensive social media management solutions.
+                                    </li>
+                                    <li>
+                                        <span class="highlight">Digital Customer Interaction Solutions (Q2 2024):</span> 
+                                        <span class="recognition">Leader</span>, emphasizing its strengths in digital customer engagement.
+                                    </li>
+                                    <li>
+                                        <span class="highlight">Conversational AI for Customer Service (Q2 2024):</span> 
+                                        <span class="recognition">Strong Performer</span>, indicating solid performance in integrating AI into customer service.
+                                    </li>
+                                    <li>
+                                        <span class="highlight">Total Economic Impact™ Studies:</span>
+                                        <div class="roi">
+                                            <p><strong>210% ROI</strong> from Sprinklr Service</p>
+                                            <p><strong>327% ROI</strong> from Sprinklr's Unified Social Media Management Platform</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="analyst-card">
+                            <div class="analyst-logo">
+                                <img src="assets/images/logos/idc.jpg" alt="IDC Logo">
+                            </div>
+                            <div class="analyst-content">
+                                <ul>
+                                    <li>
+                                        <span class="highlight">Contact Center-as-a-Service Software (2024):</span> 
+                                        <span class="recognition">Major Player</span>, reflecting its significant presence in the market.
+                                    </li>
+                                    <li>
+                                        <span class="highlight">IDC Market Note:</span> The report detailed IDC's view on Sprinklr, noting its robust architecture framework and ambitious growth plan.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="analyst-card">
+                            <div class="analyst-content">
+                                <h3>Additional Recognition</h3>
+                                <ul>
+                                    <li>
+                                        <span class="highlight">Ventana Research:</span> 
+                                        <span class="recognition">Exemplary Vendor</span> in Customer Experience Management Value Index (2023).
+                                    </li>
+                                    <li>
+                                        <span class="highlight">ISG (Information Services Group):</span> 
+                                        <span class="recognition">Leader</span> in the Capability category of Contact Center Advanced Buyers Guide, highlighting its strengths in customer experience and adaptability with out-of-the-box application integrations.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="recommendation" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <img src="assets/images/icons/recommendation.svg" alt="Recommendation" class="section-icon" width="40" height="40">
+                    <h2>Recommendation</h2>
+                </div>
+                <div class="content-box">
+                    <div class="recommendation-content">
+                        <p><strong>Proposal</strong>: Launch a structured pilot to test automation and integrations using:</p>
+                        <div class="recommendation-items">
+                            <div class="recommendation-item">
+                                <div class="recommendation-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="recommendation-content">
+                                    <h4 class="recommendation-title">Sprinklr Service</h4>
+                                    <p class="recommendation-description">Implement unified agent console with SAP CRM integration</p>
+                                </div>
+                            </div>
+                            
+                            <div class="recommendation-item">
+                                <div class="recommendation-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="recommendation-content">
+                                    <h4 class="recommendation-title">Sprinklr AI+</h4>
+                                    <p class="recommendation-description">Deploy AI-powered response generation and message classification</p>
+                                </div>
+                            </div>
+                            
+                            <div class="recommendation-item">
+                                <div class="recommendation-icon">
+                                    <i class="fas fa-sync-alt"></i>
+                                </div>
+                                <div class="recommendation-content">
+                                    <h4 class="recommendation-title">Optional: Sprinklr Insights and Community</h4>
+                                    <p class="recommendation-description">Consider for phase two implementation after initial success</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 DEWA (Dubai Electricity and Water Authority)</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/presentation.js"></script>
+</body>
+</html>

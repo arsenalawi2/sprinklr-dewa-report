@@ -1,0 +1,97 @@
+/* Analyst Reports Section Styles */
+.analyst-reports {
+    margin-top: 30px;
+}
+
+.analyst-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.analyst-card {
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.analyst-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.analyst-logo {
+    height: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.analyst-logo img {
+    max-height: 100%;
+    max-width: 200px;
+}
+
+.analyst-content ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 15px;
+}
+
+.analyst-content li {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.analyst-content li:before {
+    content: "•";
+    color: var(--primary-color);
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.analyst-content .highlight {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.analyst-content .recognition {
+    font-weight: 500;
+}
+
+.analyst-content .date {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.analyst-content .roi {
+    background-color: #f8f9fa;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+    border-left: 3px solid var(--secondary-color);
+}
+
+.analyst-content .roi strong {
+    color: var(--secondary-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .analyst-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .analyst-logo {
+        height: 50px;
+    }
+}
